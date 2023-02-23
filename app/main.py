@@ -14,7 +14,7 @@ def voice():
     response = '<?xml version="1.0" encoding="UTF-8"?>'
     response += '<Response>'
     response += '<GetDigits finishOnKey="#">'
-    response += '<Say>Please enter an option followed by the hash sign</Say>'
+    response += '<Say>Hello, welcome to MamaFua, please enter an option followed by the hash sign</Say>'
     response += '</GetDigits>'
     response += '</Response>'
 
