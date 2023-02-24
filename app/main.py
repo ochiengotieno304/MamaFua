@@ -19,7 +19,7 @@ def voice():
     session_id = request.values.get('sessionID', None)
     is_active = request.values.get('isActive', None)
     keypad_res = request.values.get('dtmfDigits', None)
-    phone_number = request.values.get('phoneNumber', None)
+    phone_number = request.values.get('callerNumber', None)
 
     response = '<?xml version="1.0" encoding="UTF-8"?>'
     response += '<Response>'
